@@ -1,29 +1,18 @@
 extends(src='layout.sgr')
   block(name='content')
-    h2 Hello World!
-    p(retext-skip) Thanks for using <a href='https://github.com/static-dev/spike'>spike</a>
-    p Example of locals: {{ foo }}
-    p(mdi) Example of **markdown**
-    p Example of "smart quotes" -- and dashes
 
-    hr
+    figure
+      img(src='/img/lilz.jpg')
 
-    h3 Getting Started
-    h4 The Stack:
+    h1 Lilly's Surprise Party
+    p July 29 2018
+    p 12:00 pm - 8:00 pm
+    p more details coming soon...
     ul
-      li
-        a(href="http://github.com/reshape/reshape") reshape
-        |  for HTML transforms
-      li
-        a(href="https://babeljs.io/") babel
-        |  for JS transforms
-      li
-        a(href="http://postcss.org/") postcss
-        |  for CSS transforms
-      li
-        a(href="http://webpack.github.io") webpack
-        |  for JS bundling
+      li contact
+        ul
+          li: a(href='tel:14344669050') 434-466-9050
+          li: a(href='mailto:smith.asa.la@gmail.com') smith.asa.la@gmail.com
 
-    p Customize your settings by editing the
-      a(href="https://spike.readme.io/docs/appjs") app.js
-      |  file or simply start by editing this view
+
+
